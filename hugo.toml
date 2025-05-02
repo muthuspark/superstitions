@@ -14,6 +14,7 @@ tag = 'tags'
 description = "Dive into the fascinating world of global superstitions! This blog explores hundreds of beliefs, rituals, lucky charms, and unlucky omens from diverse cultures across the globe. Discover why people avoid black cats, knock on wood, or carry specific talismans. Join us as we unpack the history, psychology, and cultural significance behind these intriguing practices."
 showFooter = true
 footerContent = "Collection of Superstitions compiled with ♥"
+faviconPath = "/"
 
 # Appearance settings
 theme = 'light'
@@ -43,6 +44,8 @@ listDateFormat = '02 Jan 2006'
 name = "posts"
 url = "/posts"
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[sitemap]
+  changeFreq = 'weekly'
+  disable = false
+  filename = 'sitemap_index.xml'
+  priority = -1
