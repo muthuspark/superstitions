@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -93,15 +93,8 @@ The reverence for the hawthorn can be traced back to ancient Roman times. Pliny 
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -142,7 +135,6 @@ The reverence for the hawthorn can be traced back to ancient Roman times. Pliny 
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -157,17 +149,34 @@ The reverence for the hawthorn can be traced back to ancient Roman times. Pliny 
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Cutting a Lone Hawthorn Bush: A Superstition Foretelling Death and Misfortune</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Cutting a Lone Hawthorn Bush: A Superstition Foretelling Death and Misfortune</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -199,8 +208,8 @@ The reverence for the hawthorn can be traced back to ancient Roman times. Pliny 
 <p><strong>Modern Interpretations:</strong></p>
 <p>Beyond the supernatural, practical explanations for the hawthorn&rsquo;s association with misfortune also exist. In medieval England, the scent of hawthorn blossoms was often compared to the odor associated with the Black Death, which devastated London in 1665. This comparison, while rooted in a shared scent, created a sensory link between the hawthorn and death, further reinforcing the superstition. Modern science has identified Trimethylamine, an organic compound found in decaying animal tissue, as the source of this similar odor. This scientific discovery may explain why, even among those not particularly superstitious, there exists a reluctance to bring hawthorn blossoms indoors, solidifying the enduring aversion towards the plant and its association with ill-fortune and even death.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -306,4 +315,14 @@ The reverence for the hawthorn can be traced back to ancient Roman times. Pliny 
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

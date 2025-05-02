@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The elder tree’s reverence in pagan folklore predates Christianity. It was reg
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The elder tree’s reverence in pagan folklore predates Christianity. It was reg
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The elder tree’s reverence in pagan folklore predates Christianity. It was reg
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Never Cut an Elder Tree: Exploring the Superstition and its Roots</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Never Cut an Elder Tree: Exploring the Superstition and its Roots</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -194,8 +203,8 @@ The elder tree’s reverence in pagan folklore predates Christianity. It was reg
 <p>The elder&rsquo;s association with death also contributed to the superstition. According to one Christian legend, Judas Iscariot hanged himself from an elder tree. This association led to the elder being sometimes referred to as the &lsquo;Death Tree&rsquo;. Ironically, its pre-Christian connection to rebirth meant that elder was also used at funerals, further entrenching its presence in the cycle of life and death. Beyond these specific associations, it was also considered unlucky to smell the elder tree or to sleep beneath one.</p>
 <p>In modern interpretations, the superstition surrounding cutting down an elder tree persists, although it is often viewed with varying degrees of seriousness. While some still adhere to the literal belief in the tree&rsquo;s magical powers and the potential for misfortune, others see the superstition as a reflection of a broader respect for nature and the importance of preserving ancient traditions. The prohibition against cutting the elder tree serves as a reminder of the interconnectedness between humanity and the natural world and the enduring power of folklore in shaping cultural beliefs.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -301,4 +310,14 @@ The elder tree’s reverence in pagan folklore predates Christianity. It was reg
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

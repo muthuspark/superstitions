@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The historical context of this superstition lies within the repeated plague epid
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The historical context of this superstition lies within the repeated plague epid
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The historical context of this superstition lies within the repeated plague epid
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Wearing a Toad Around the Neck: A Historical Superstition to Ward Off the Plague</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Wearing a Toad Around the Neck: A Historical Superstition to Ward Off the Plague</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@ The historical context of this superstition lies within the repeated plague epid
 <p>The use of toads likely stemmed from a combination of factors. Toads were often associated with the earth, and their amphibian nature may have linked them to the idea of drawing out illness. The belief may also have arisen from the doctrine of signatures, where a natural object resembling a part of the body or symptom of a disease was believed to possess healing properties. In this case, the toad&rsquo;s warty skin could have been seen as symbolically absorbing the buboes or other symptoms of the plague.</p>
 <p>The superstition involving toads and other such measures were ultimately ineffective. Defoe&rsquo;s writings express the futility of these efforts, recounting how many who relied on charms and amulets still perished, their &lsquo;hellish charms&rsquo; buried with them. Modern interpretation views this superstition as a reflection of the ignorance and desperation of the time. The mascots and charms that some people carry today are distant echoes of a past where such objects were not just symbols of luck, but were believed to offer real protection against life-threatening diseases.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@ The historical context of this superstition lies within the repeated plague epid
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

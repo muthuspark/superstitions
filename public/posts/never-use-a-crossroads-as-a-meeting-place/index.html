@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ Much of the superstition surrounding crossroads can be traced back to the mediev
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ Much of the superstition surrounding crossroads can be traced back to the mediev
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ Much of the superstition surrounding crossroads can be traced back to the mediev
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Never Meet at a Crossroads: Exploring the Superstition and its Origins</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Never Meet at a Crossroads: Exploring the Superstition and its Origins</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -195,8 +204,8 @@ Much of the superstition surrounding crossroads can be traced back to the mediev
 <p>Adding to the grim atmosphere, gallows were frequently erected at crossroads located on the edges of towns. This further amplified the crossroads&rsquo; reputation as a place frequented by the damned. The souls of executed criminals, denied access to heaven, were believed to linger in these locations, creating an aura of dread and reinforcing the superstition against meeting at crossroads. These places were considered spiritually tainted and potentially dangerous.</p>
 <p>In modern times, while belief in literal demons and restless spirits may have waned, the superstition surrounding crossroads persists, albeit often in a symbolic or metaphorical sense. Some interpret the crossroads as a place of decision and uncertainty, a space where paths diverge, and choices have significant consequences. Meeting someone at a crossroads might, therefore, be seen as setting a precarious stage for a meeting, laden with potential for conflict or misfortune due to the inherent instability associated with the location. Thus, the ancient fear of the crossroads, once rooted in the tangible belief of evil spirits, continues to resonate in our cultural consciousness.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -302,4 +311,14 @@ Much of the superstition surrounding crossroads can be traced back to the mediev
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -91,15 +91,8 @@
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -140,7 +133,6 @@
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -155,17 +147,34 @@
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>The Evil Eye: A Superstition Rooted in Ancient Beliefs of Envy and Misfortune</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">The Evil Eye: A Superstition Rooted in Ancient Beliefs of Envy and Misfortune</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@
 <p>Across cultures, young children are often considered the most vulnerable to the evil eye. This susceptibility is attributed to their perceived innocence and beauty, qualities that are believed to attract envious glances. The act of praising a child&rsquo;s appearance is thought to increase the risk of attracting the evil eye. Consequently, many cultures have developed customs to counteract this perceived threat. In some countries, it is customary to touch a child immediately after praising them, intending to dispel any potential curse. In Bangladesh, mothers may apply a black kohl mark behind their daughters&rsquo; ears to deflect envy and protect them from ill effects. In the Middle East and some Mediterranean countries, glass amulets featuring a blue eye are worn as jewelry or hung over doorways to repel the evil eye&rsquo;s power. The use of blue is often attributed to the relative rarity of blue eyes in these regions; blue-eyed tourists who failed to recognize that photographing or cooing over children was frowned upon may have further underlined the superstition.</p>
 <p>Various other protective measures exist across different cultures. Jewish tradition involves tying a piece of red string around children&rsquo;s wrists for protection. In Italy, where the curse is believed to affect men and cause impotence, a hand gesture resembling horns is used as a countermeasure. While these preventive measures are now largely considered symbolic, their historical significance highlights the deep-seated fear and anxiety associated with the evil eye. In the past, before modern medical understanding, the prevalence of diseases causing dehydration in young children often led to attributing these deaths to the influence of the evil eye. Today, the belief in the evil eye persists as a cultural phenomenon, often intertwined with folk traditions and spiritual beliefs, even as scientific explanations offer alternative understandings of illness and misfortune.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

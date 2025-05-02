@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <link rel="alternate" type="application/rss+xml" href="https://superstitions.muthu.co/posts/index.xml" title="Superstitions From Around the World">
 <meta name="description" content=""/>
@@ -91,15 +91,8 @@
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -140,7 +133,6 @@
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -154,18 +146,18 @@
 
     <h1>Posts</h1>
     
+    
+    
+
+    
+    
+    
+    
 
     
 
     
     
-    
-    
-
-    
-
-    
-
     
     <div class="post-line">
 
@@ -213,7 +205,7 @@
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -261,7 +253,7 @@
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -309,7 +301,7 @@
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -357,7 +349,7 @@
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -404,7 +396,7 @@
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -453,7 +445,7 @@ One of the earliest documented accounts of this superstition can be traced back 
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -502,7 +494,7 @@ One of the earliest documented accounts of this superstition can be traced back 
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -550,7 +542,7 @@ One of the earliest documented accounts of this superstition can be traced back 
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -598,7 +590,7 @@ One of the earliest documented accounts of this superstition can be traced back 
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -645,7 +637,7 @@ One of the earliest documented accounts of this superstition can be traced back 
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -693,7 +685,7 @@ One of the earliest documented accounts of this superstition can be traced back 
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -741,7 +733,7 @@ One of the earliest documented accounts of this superstition can be traced back 
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -790,7 +782,7 @@ One of the earliest documented accounts of this superstition can be traced back 
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -838,7 +830,7 @@ One of the earliest documented accounts of this superstition can be traced back 
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -887,7 +879,7 @@ The association of candles with spiritual activity predates Christianity. Ancien
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -935,7 +927,7 @@ The association of candles with spiritual activity predates Christianity. Ancien
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -983,7 +975,7 @@ The association of candles with spiritual activity predates Christianity. Ancien
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -1031,7 +1023,7 @@ The association of candles with spiritual activity predates Christianity. Ancien
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -1079,7 +1071,7 @@ The association of candles with spiritual activity predates Christianity. Ancien
     
 
     
-
+    
     
     <div class="post-line">
 
@@ -1198,4 +1190,14 @@ The association of candles with spiritual activity predates Christianity. Ancien
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -91,15 +91,8 @@
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -140,7 +133,6 @@
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -155,17 +147,34 @@
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>A Swan&#39;s Feather Sewn into a Husband&#39;s Pillow: A Superstition for Marital Fidelity</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">A Swan&#39;s Feather Sewn into a Husband&#39;s Pillow: A Superstition for Marital Fidelity</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -192,8 +201,8 @@
 <p>Parallel narratives can be found in Egyptian and Roman mythology, as well as in legends from Greenland, Eastern Siberia, and Ireland. In Irish folklore, swans were often depicted as bewitched maidens or carriers of the souls of women who had died as virgins. Later depictions of swans&rsquo; devotion in Wagner&rsquo;s operas <em>Parsifal</em> and <em>Lohengrin</em>, as well as Tchaikovsky&rsquo;s renowned ballet <em>Swan Lake</em>, solidified the swan&rsquo;s image as an emblem of unwavering devotion.</p>
 <p>In modern interpretations, the superstition of sewing a swan&rsquo;s feather into a husband&rsquo;s pillow is largely symbolic. While few contemporary brides literally perform this act, it serves as a reminder of the desire for fidelity and lasting love within the marriage. The swan, with its enduring symbolic association with lifelong partnership, represents the hope for a stable and devoted relationship.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -299,4 +308,14 @@
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ Historically, lightning held significant meaning across various cultures. In anc
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ Historically, lightning held significant meaning across various cultures. In anc
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ Historically, lightning held significant meaning across various cultures. In anc
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Lightning Will Never Strike a House with a Burning Fire: Exploring the Superstition</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Lightning Will Never Strike a House with a Burning Fire: Exploring the Superstition</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -194,8 +203,8 @@ Historically, lightning held significant meaning across various cultures. In anc
 <p>Over time, the interpretation of lightning as divine punishment has persisted among believers, even in more secular times. A notable example occurred in 1985 when York Minster, a prominent cathedral in the UK, was damaged by fire. When the Bishop attributed the fire to a lightning strike, a reader of <em>The Times</em> newspaper responded with a letter stating, &lsquo;“Just lightning” says the Bishop dismissively. To those of us as old-fashioned as I, lightning is the wrath of God.&rsquo; This incident highlights the enduring presence of the superstition in modern society, even as scientific explanations for lightning have become widely accepted.</p>
 <p>In conclusion, the superstition that lightning will never strike a house with a burning fire reflects a complex interplay of historical beliefs, religious symbolism, and cultural practices. While scientific understanding has demystified the phenomenon of lightning, the enduring nature of this superstition serves as a testament to the lasting power of folklore and the human desire to understand and control the forces of nature.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -301,4 +310,14 @@ Historically, lightning held significant meaning across various cultures. In anc
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

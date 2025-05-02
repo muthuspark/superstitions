@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The historical background of this superstition is strongly connected to the witc
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The historical background of this superstition is strongly connected to the witc
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The historical background of this superstition is strongly connected to the witc
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>The Superstition of Toads or Frogs Entering a House Signifying Bad Luck</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">The Superstition of Toads or Frogs Entering a House Signifying Bad Luck</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@ The historical background of this superstition is strongly connected to the witc
 <p>The evolution of this superstition over time reveals diverse interpretations and remedies. Dorset historian George Roberts, in an 1834 account, noted that toads found in houses were treated with considerable care and ejected without harm, reflecting a belief that these creatures warranted a degree of &lsquo;veneration or awe&rsquo; due to their perceived connection to witchcraft. The ailments believed to be caused by these unwelcome guests ranged from muscle weakness to toothache, all attributed to the supposed spells cast upon the inhabitants.</p>
 <p>Modern interpretations of this superstition are less uniform and largely dependent on individual beliefs and cultural background. While some may dismiss the notion entirely, others might still feel unease or concern upon finding a frog or toad inside their home. The remedies and actions prescribed in the 1800s varied greatly. Some believed that simply removing the creature beyond the boundaries of the home provided sufficient protection. Others advocated for killing the trespassing amphibian, believing that this action would defeat the human enemies behind the curse and render them powerless. Regardless of the specific response, the underlying fear reflects a lingering connection to the historical association of toads and frogs with witchcraft and bad luck.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@ The historical background of this superstition is strongly connected to the witc
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

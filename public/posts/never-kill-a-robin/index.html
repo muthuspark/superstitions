@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The historical roots of this superstition are deeply entwined with Christian fol
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The historical roots of this superstition are deeply entwined with Christian fol
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The historical roots of this superstition are deeply entwined with Christian fol
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Never Kill a Robin: Exploring the Superstition&#39;s Origins and Meanings</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Never Kill a Robin: Exploring the Superstition&#39;s Origins and Meanings</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@ The historical roots of this superstition are deeply entwined with Christian fol
 <p>The evolution of this superstition has seen the development of specific punishments for killing a robin, varying across different regions. The common thread, however, is the severity of the repercussions. Many believed that causing the death of a robin, even accidentally, would invite misfortune. In some areas, it was said that the hand responsible for taking the robin&rsquo;s life would forever tremble. Irish folklore held that a large, painful lump would appear on the right hand of anyone guilty of the sin. In Yorkshire, the consequences were thought to affect a farmer&rsquo;s livelihood, with the milk produced by his cows turning the color of blood if he were responsible for a robin&rsquo;s death.</p>
 <p>In modern interpretations, the superstition against killing a robin persists, although its literal adherence has diminished. The robin, due to its historical and symbolic associations, continues to be regarded with respect and affection. While fear of divine retribution may not be as prevalent, a general sense of unease and a belief in negative consequences still surround the act of harming one. The superstition, therefore, serves as a reminder of the enduring power of folklore and its ability to shape human interaction with the natural world, fostering a sense of responsibility and respect for the creatures that share our environment.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@ The historical roots of this superstition are deeply entwined with Christian fol
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -93,15 +93,8 @@ The association of black cats with superstition can be traced back to ancient ti
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -142,7 +135,6 @@ The association of black cats with superstition can be traced back to ancient ti
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -157,17 +149,34 @@ The association of black cats with superstition can be traced back to ancient ti
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Black Cat Superstition: A History of Good and Bad Omens</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Black Cat Superstition: A History of Good and Bad Omens</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -200,8 +209,8 @@ The association of black cats with superstition can be traced back to ancient ti
 <p>Despite widespread negative associations in some areas, particularly in the United States, Great Britain and Ireland often consider it lucky to own or encounter a black cat, especially on important occasions like weddings or the start of a journey. A well-known anecdote tells of King Charles I, who was so convinced of his black cat&rsquo;s good luck that he kept it under constant guard. Upon the cat&rsquo;s death, he reportedly lamented that his luck had run out. The very next day, King Charles I was arrested by Oliver Cromwell&rsquo;s troops and was ultimately beheaded two years later, a circumstance which some interpret as a consequence of losing his feline lucky charm.</p>
 <p>The superstitions surrounding black cats continue to be a fascinating example of how cultural beliefs, folklore, and historical events shape our perceptions of the world around us. Whether regarded as lucky or unlucky, black cats remain a potent symbol in the collective human imagination.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -307,4 +316,14 @@ The association of black cats with superstition can be traced back to ancient ti
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

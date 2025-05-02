@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ Historically, the close proximity of the living to the dead facilitated this sup
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ Historically, the close proximity of the living to the dead facilitated this sup
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ Historically, the close proximity of the living to the dead facilitated this sup
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Touching a Corpse for Good Luck: Exploring the Superstition&#39;s Origins and Evolution</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Touching a Corpse for Good Luck: Exploring the Superstition&#39;s Origins and Evolution</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@ Historically, the close proximity of the living to the dead facilitated this sup
 <p>The evolution of this superstition also reveals darker beliefs. Seventeenth-century records indicate a macabre practice wherein a corpse&rsquo;s nose bleeding in the presence of a suspected murderer was considered evidence of their guilt. If a suspected murderer was made to touch the corpse, a fresh flow of blood was believed to confirm their crime, highlighting the corpse&rsquo;s supposed ability to reveal truth and enact justice from beyond the grave.</p>
 <p>However, not all interactions with the dead were perceived as positive. Superstitions also warned of negative omens. A corpse that remained unusually warm or failed to develop rigor mortis was considered a harbinger of another imminent death, illustrating the ambiguous and potentially dangerous nature attributed to the deceased. While the modern world has largely distanced itself from such practices, the superstition of touching a corpse for good luck serves as a stark reminder of humanity&rsquo;s enduring fascination with death and the supernatural, and how it shaped beliefs and practices in past eras.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@ Historically, the close proximity of the living to the dead facilitated this sup
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

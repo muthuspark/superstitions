@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The earliest known roots of this superstition trace back to ancient Greece. The 
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The earliest known roots of this superstition trace back to ancient Greece. The 
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The earliest known roots of this superstition trace back to ancient Greece. The 
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Never Speak Ill of the Dead: Exploring the Superstition&#39;s Origins and Cultural Significance</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Never Speak Ill of the Dead: Exploring the Superstition&#39;s Origins and Cultural Significance</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -194,8 +203,8 @@ The earliest known roots of this superstition trace back to ancient Greece. The 
 <p>Historically, the deceased were not immediately relegated to funeral homes. Corpses were kept at home until burial, and it was believed that the soul lingered nearby during this period. Even after burial, the deceased were thought to be accessible through visits to their graves. Benches were often placed among graves, encouraging conversations with the dead. This close proximity fostered the belief that disrespectful words could be heard by the spirit of the deceased, potentially leading to haunting or other forms of retribution.</p>
 <p>In modern times, while the belief in literal haunting has waned, the tradition of respecting the dead persists. This respect is often driven by a desire to protect the memory of the deceased and offer solace to the bereaved. However, the inherent difficulty of adhering to the superstition is evident in the common phrase, “I know we shouldn’t speak ill of the dead but…,” a precursor to posthumous criticism, demonstrating the continued tension between respect and honesty even in contemporary society. Thus, even today, the ancient wisdom serves as a reminder of the complex relationship between the living and the departed.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -301,4 +310,14 @@ The earliest known roots of this superstition trace back to ancient Greece. The 
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

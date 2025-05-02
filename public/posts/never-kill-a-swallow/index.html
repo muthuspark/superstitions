@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -91,15 +91,8 @@
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -140,7 +133,6 @@
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -155,17 +147,34 @@
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Killing a Swallow: Exploring the Superstition and its Historical Roots</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Killing a Swallow: Exploring the Superstition and its Historical Roots</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -192,8 +201,8 @@
 <p>The superstition evolved over time, incorporating beliefs related to good fortune and protection. In rural areas, a swallow building its nest under the eaves of a house is considered a sign of good luck, believed to offer protection from fire and storm damage. This probably originated from observing that homes with swallows&rsquo; nests were often naturally sheltered from harsh weather. If a swallow flies into a home, it is viewed as an even greater blessing. However, a swallow abruptly abandoning its nest is seen as an ominous sign of impending misfortune.</p>
 <p>Farmers, particularly across Europe, traditionally observe great care not to disturb swallows. The belief exists that killing a swallow will negatively impact milk production in cows or lead to a poor harvest if their nests are disturbed. This connects the bird&rsquo;s well-being directly to the farmer&rsquo;s livelihood and prosperity, underscoring the importance of respecting and protecting these birds. While laws such as the Wildlife and Countryside Act of 1981 in Britain now legally protect swallows, the enduring power of this superstition continues to influence how people perceive and interact with these birds, demonstrating a lasting legacy of cultural beliefs and historical associations.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -299,4 +308,14 @@
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

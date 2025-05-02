@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ Historically, spitting has been associated with both healing and repulsion. In t
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ Historically, spitting has been associated with both healing and repulsion. In t
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ Historically, spitting has been associated with both healing and repulsion. In t
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Spitting to Ward Off Evil: A Historical Superstition</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Spitting to Ward Off Evil: A Historical Superstition</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@ Historically, spitting has been associated with both healing and repulsion. In t
 <p>The superstition evolved over time, adapting to specific cultural contexts. In Greece and Cyprus, spitting on the bosom became a tradition to ward off evil, particularly the Evil Eye. While the actual act of spitting gradually diminished, the sound &lsquo;ptew&rsquo; remained as a symbolic substitute. The phrase &lsquo;Ptew, Ptew mi me matiasis,&rsquo; translating to &lsquo;Spit, spit, I spit on myself to protect myself from the Evil Eye,&rsquo; is still commonly recited. Some individuals continue to mimic the action of spitting onto their chest for added protection.</p>
 <p>Modern interpretations of spitting to ward off evil vary across different cultures. Fishermen around the world traditionally spit into their nets to ensure a successful catch. In the UK and America, boxers sometimes spit on their knuckles before a fight. Furthermore, pretending to spit on one&rsquo;s hands before undertaking a challenging task is a widespread custom, symbolizing readiness and a warding off of potential failure. In Irish folklore, spitting on horses was believed to protect them from fairies, who were thought to be repelled by uncleanliness. Ironically, modern science recognizes saliva&rsquo;s antiseptic qualities, lending an unexpected basis to the traditional belief in its protective properties, as it aids in healing wounds.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@ Historically, spitting has been associated with both healing and repulsion. In t
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

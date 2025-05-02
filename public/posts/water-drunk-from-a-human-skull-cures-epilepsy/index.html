@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The earliest documented mention of this practice appears in Pliny the Elder’s 
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The earliest documented mention of this practice appears in Pliny the Elder’s 
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The earliest documented mention of this practice appears in Pliny the Elder’s 
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Water Drunk From a Human Skull: A Superstition Intended to Cure Epilepsy</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Water Drunk From a Human Skull: A Superstition Intended to Cure Epilepsy</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@ The earliest documented mention of this practice appears in Pliny the Elder’s 
 <p>The specific characteristics of the skull were thought to influence its efficacy. Some believed that the skull must belong to a man who had committed suicide, while others, aligning with Pliny&rsquo;s assertion, stipulated that the individual must have been killed. These distinctions highlight the complex intertwining of superstition, folklore, and perceived medicinal properties. Further demonstrating the widespread nature of this type of belief, the Azande people of Central Africa believed that eating the burnt skull of a red bush monkey could cure epilepsy, drawing a parallel between the convulsive movements of seizures and the jerky motions of these monkeys.</p>
 <p>The belief in the medicinal properties of the human skull extended beyond epilepsy treatment. In the 1600s, it was common to apply moss gathered from a dead man&rsquo;s skull to staunch nosebleeds or alleviate chronic headaches. Additionally, rubbing a tooth extracted from a skull on the gums was believed to cure toothaches. These examples further illustrate the broad scope of perceived healing powers attributed to human remains. In modern times, it&rsquo;s understood that these beliefs are superstitions devoid of scientific basis, reflecting a time when understanding of diseases like epilepsy was limited, and people resorted to a range of remedies, including those considered macabre today.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@ The earliest documented mention of this practice appears in Pliny the Elder’s 
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

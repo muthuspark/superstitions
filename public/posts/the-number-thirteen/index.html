@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The origins of this superstition are varied, with multiple explanations rooted i
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The origins of this superstition are varied, with multiple explanations rooted i
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The origins of this superstition are varied, with multiple explanations rooted i
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>The Superstition of Thirteen: A Historical and Cultural Examination</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">The Superstition of Thirteen: A Historical and Cultural Examination</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -194,8 +203,8 @@ The origins of this superstition are varied, with multiple explanations rooted i
 <p>However, not all perspectives view thirteen negatively. In sacred geometry, both ancient and modern scholars consider the number thirteen to be a fundamental structural unit found throughout nature. Observations include the presence of thirteen major joints in the human skeleton, the moon&rsquo;s daily progression of thirteen degrees in its orbit, and the existence of thirteen lunar cycles within a solar year. In Judaism, thirteen holds auspicious significance as the age of responsibility when a boy becomes bar mitzvah. Furthermore, in Hebrew, the letters of thirteen (yod-gimel) correspond to the numerical value of the word <em>ahava</em>, meaning love. This positive association has led some to suggest that the superstition surrounding thirteen may have its roots in historical anti-Semitism.</p>
 <p>In contemporary society, the superstition of thirteen persists, demonstrating its enduring impact on cultural practices and individual beliefs. While its precise origin remains debated, its various historical, mythological, and religious associations have contributed to its pervasive presence in modern culture, from architectural design to popular folklore.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -301,4 +310,14 @@ The origins of this superstition are varied, with multiple explanations rooted i
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

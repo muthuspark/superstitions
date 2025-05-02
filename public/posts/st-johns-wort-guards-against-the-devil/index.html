@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ Historical Background: St. John’s Wort boasts a medicinal history dating back 
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ Historical Background: St. John’s Wort boasts a medicinal history dating back 
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ Historical Background: St. John’s Wort boasts a medicinal history dating back 
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>St. John&#39;s Wort: A Historical Superstition About Guarding Against the Devil</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">St. John&#39;s Wort: A Historical Superstition About Guarding Against the Devil</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -202,8 +211,8 @@ Round your neck a charm of similar kind.</em></p>
 <p>This poem illustrates the belief that St. John&rsquo;s Wort, especially when gathered on St. John&rsquo;s Day (June 24th), held the power to ward off witches, devils, and even natural disasters. In the 13th century, physicians from the Salernitan medical school in Italy, described St. John&rsquo;s Wort as <em>herba demonis fuga</em>, and later named it <em>fuga demonum</em>, meaning &lsquo;devil&rsquo;s scourge,&rsquo; emphasizing its perceived ability to protect individuals from demons.</p>
 <p><strong>Modern Interpretations:</strong> As medical understanding of psychological disorders advanced during the Renaissance, the concept of &lsquo;demons&rsquo; evolved to describe feelings of melancholy and mental distress. While the belief in literal demons waned, the association between St. John&rsquo;s Wort and mental well-being persisted. Today, St. John&rsquo;s Wort is commonly used as a herbal remedy for treating depression, a far cry from its initial association with warding off supernatural entities. Although the original superstition may have faded, the plant&rsquo;s long-standing association with protection and healing continues to influence its modern usage.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -309,4 +318,14 @@ Round your neck a charm of similar kind.</em></p>
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

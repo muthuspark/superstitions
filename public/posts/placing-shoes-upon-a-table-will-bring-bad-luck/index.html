@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The recorded history of this superstition is relatively recent, with the earlies
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The recorded history of this superstition is relatively recent, with the earlies
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The recorded history of this superstition is relatively recent, with the earlies
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Placing Shoes on a Table: Exploring the Superstition of Bad Luck</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Placing Shoes on a Table: Exploring the Superstition of Bad Luck</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@ The recorded history of this superstition is relatively recent, with the earlies
 <p>Despite the varied and compelling nature of these explanations, concrete evidence supporting any single origin remains scarce. The lack of a definitive source, however, has not diminished the superstition&rsquo;s influence. Sir Charles Igglesden, in his 1932 folklore collection, <em>Those Superstitions</em>, recounts a story about Arthur Wellesley, the Duke of Wellington, a prominent British figure and victor of the Battle of Waterloo. The tale illustrates the strength of the superstition, stating that the Duke immediately dismissed a long-serving employee for placing his boots on a table.</p>
 <p>In modern interpretations, while fewer people may strictly adhere to the superstition, it continues to be recognized and, in some cases, cautiously observed. For those who believe in the potential for bad luck, certain countermeasures exist. One remedy involves spitting on the soles of the shoes, an act traditionally associated with warding off evil. Another preventative measure requires the individual who placed the shoes on the table to be the one to remove them, thereby mitigating the potential negative consequences. Ultimately, the superstition of placing shoes on a table remains a fascinating example of how cultural beliefs, historical anecdotes, and symbolic associations can intertwine to create lasting traditions.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@ The recorded history of this superstition is relatively recent, with the earlies
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

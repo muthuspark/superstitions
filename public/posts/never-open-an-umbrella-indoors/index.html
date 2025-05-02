@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ Speculative accounts link the superstition to ancient sun worship. Early umbrell
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ Speculative accounts link the superstition to ancient sun worship. Early umbrell
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ Speculative accounts link the superstition to ancient sun worship. Early umbrell
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Opening an Umbrella Indoors: Examining the Origins and Evolution of the Superstition</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Opening an Umbrella Indoors: Examining the Origins and Evolution of the Superstition</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -192,8 +201,8 @@ Speculative accounts link the superstition to ancient sun worship. Early umbrell
 <p>More plausible explanations arise from 19th-century European folklore. The absence of the belief in documented collections of superstitions before the 19th century supports this. One theory proposes that umbrellas, like upturned horseshoes, were believed to attract mischievous fairies or pixies. Some oral traditions even feature stories of goblins residing within folded umbrellas, who would be released upon opening them indoors, potentially causing household disruptions or misfortune. This kind of belief was typically passed down through generations.</p>
 <p>The specific consequences of opening an umbrella indoors have varied across time and location. In contemporary interpretations, it is generally considered simply &ldquo;bad luck.&rdquo; However, in the late 19th century, opening an umbrella inside and holding it above one&rsquo;s head was regarded as a sign of impending death. A more recent American folklore version suggests that opening an umbrella under a roof nullifies the protective qualities of the home itself. Houses were often protected with talismans, and charms designed to ward off evil influences, but opening an umbrella within the house created a separate sphere, independent from the house’s protective influence, leaving the individual vulnerable.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -299,4 +308,14 @@ Speculative accounts link the superstition to ancient sun worship. Early umbrell
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

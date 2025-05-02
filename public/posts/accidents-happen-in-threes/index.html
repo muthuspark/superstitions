@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The superstition gained significant traction from the mid-nineteenth century onw
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The superstition gained significant traction from the mid-nineteenth century onw
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The superstition gained significant traction from the mid-nineteenth century onw
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Accidents Happen in Threes: Exploring the Superstition&#39;s Origins and Evolution</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Accidents Happen in Threes: Exploring the Superstition&#39;s Origins and Evolution</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -194,8 +203,8 @@ The superstition gained significant traction from the mid-nineteenth century onw
 <p>In its modern interpretation, the superstition has become more generalized, reflecting a broader sense of unease in the face of adversity. With the scope of potential misfortunes widening, individuals can only brace themselves and find a small comfort in believing that they were aware of a potential third misfortune coming. This outlook acknowledges the potential for negative events, and the widespread acceptance of the superstition&rsquo;s influence on everyday life.</p>
 <p>Interestingly, the number three is not always associated with negativity. The belief that the &ldquo;third time&rsquo;s the charm&rdquo; offers a counterpoint. This more optimistic notion has considerably older origins, predating the &ldquo;accidents in threes&rdquo; superstition by several centuries. Evidence of this can be found in the fourteenth-century Middle English romance poem Sir Gawain and the Green Knight, which contains the lines: &ldquo;With thee when I return hither; for I have tried thee twice, and faithful I find thee; now, third time, best time.” These lines exemplify a belief that success or good fortune can increase with each attempt. Thus, the number three is subject to both positive and negative interpretations, depending on the context and cultural lens through which it is viewed.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -301,4 +310,14 @@ The superstition gained significant traction from the mid-nineteenth century onw
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

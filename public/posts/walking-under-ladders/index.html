@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The avoidance of walking under ladders, however, has often been framed as more t
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The avoidance of walking under ladders, however, has often been framed as more t
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The avoidance of walking under ladders, however, has often been framed as more t
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Walking Under Ladders: Exploring the Origins and Enduring Superstition</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Walking Under Ladders: Exploring the Origins and Enduring Superstition</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -191,8 +200,8 @@ The avoidance of walking under ladders, however, has often been framed as more t
 <p>The avoidance of walking under ladders, however, has often been framed as more than a simple superstition. One explanation attributes its origins to the sacred symbolism of the triangle. A ladder leaning against a wall forms a triangular shape, which, within Christian tradition, represents the Holy Trinity: the Father, the Son, and the Holy Spirit. To walk through the center of this triangle was seen as breaking the Holy Trinity, a violation against God, and therefore, blasphemous. The reverence for the triangle as a symbol of life dates back to ancient Egyptian times, where disrupting a sacred symbol was considered a direct challenge to fate itself. Beyond religious symbolism, the practical danger of objects or individuals falling from a ladder also provides a rationale for avoiding the space beneath it.</p>
 <p>An alternative and more grim explanation traces the superstition to medieval gallows. Until the late 19th century, the &lsquo;short drop&rsquo; method of hanging was commonly used. This involved prisoners being hanged from a cart or made to step off a ladder with a noose around their neck, often resulting in death by strangulation. Later, as new drop gallows were introduced to cause a quicker death by breaking the prisoner’s neck, ladders were used to allow the condemned to climb onto the scaffold. Following the execution, the executioner would again use the ladders to retrieve the bodies. According to popular belief, the souls of the executed, deemed unfit for heaven due to their crimes, lingered beneath the ladder. Therefore, walking under a ladder was considered an invitation to misfortune, exposing oneself to the spirits of the condemned.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -298,4 +307,14 @@ The avoidance of walking under ladders, however, has often been framed as more t
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

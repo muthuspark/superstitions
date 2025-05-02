@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -93,15 +93,8 @@ The owl’s history is deeply intertwined with ancient civilizations. In ancient
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -142,7 +135,6 @@ The owl’s history is deeply intertwined with ancient civilizations. In ancient
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -157,17 +149,34 @@ The owl’s history is deeply intertwined with ancient civilizations. In ancient
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Owls: Examining the Historical Superstition and Cultural Significance</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Owls: Examining the Historical Superstition and Cultural Significance</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -200,8 +209,8 @@ The owl’s history is deeply intertwined with ancient civilizations. In ancient
 <p>During the Middle Ages, methods to counteract the perceived bad luck associated with owls involved ritualistic actions. These included thrusting iron objects, like shovels, into a fire, or removing clothing, turning it inside out, and quickly redressing. For longer-term protection, people would throw salt or vinegar into a fire, believing it would silence the owl by giving it a sore tongue. These practices reveal a belief in the ability to ward off the owl&rsquo;s negative influence through symbolic acts and offerings.</p>
 <p>While modern society largely dismisses these superstitions, the owl&rsquo;s symbolic duality persists. It remains a symbol of both wisdom and foreboding, its image frequently used in literature, art, and popular culture, reminding us of its enduring presence in the human imagination and its long history as a creature of both reverence and fear.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -307,4 +316,14 @@ The owl’s history is deeply intertwined with ancient civilizations. In ancient
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

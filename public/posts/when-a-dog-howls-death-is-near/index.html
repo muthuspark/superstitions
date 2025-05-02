@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ Historical Background Beliefs surrounding dogs and their perceived connection to
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ Historical Background Beliefs surrounding dogs and their perceived connection to
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ Historical Background Beliefs surrounding dogs and their perceived connection to
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>When a Dog Howls, Death Is Near: Exploring the Superstition&#39;s History and Meaning</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">When a Dog Howls, Death Is Near: Exploring the Superstition&#39;s History and Meaning</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -200,8 +209,8 @@ The earliest documented reference to the superstition appears in the medieval <e
 The longevity of the superstition is partly attributed to its incorporation into literature and art. Prominent authors, such as Shakespeare, Coleridge, and Dickens, used the image of a howling dog to create dramatic tension and evoke a sense of foreboding. In Shakespeare&rsquo;s <em>Henry VI</em>, the line &lsquo;At thy birth, an evil signe . . . Dogs howl&rsquo;d&rsquo; connects the dog&rsquo;s howl with misfortune. Coleridge&rsquo;s <em>Christabel</em> describes a mastiff&rsquo;s bitch howling, with some believing &lsquo;she sees my lady’s shroud.&rsquo; In Dickens&rsquo; <em>Martin Chuzzlewit</em>, the sound fills a character with terror. These literary portrayals solidified the superstition in the public consciousness.</p>
 <p>Even in contemporary times, the belief persists, with many modern mediums crediting dogs with the ability to sense spirits and see ghosts that are invisible to the human eye. This enduring association reinforces the notion that dogs possess a heightened sensitivity to the supernatural realm, maintaining the age-old superstition that a dog&rsquo;s howl may herald the approach of death.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -307,4 +316,14 @@ The longevity of the superstition is partly attributed to its incorporation into
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ Historically, the broom’s origins are intertwined with pagan fertility rituals
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ Historically, the broom’s origins are intertwined with pagan fertility rituals
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ Historically, the broom’s origins are intertwined with pagan fertility rituals
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Never Take a Broom When You Move House: Exploring the Superstition</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Never Take a Broom When You Move House: Exploring the Superstition</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@ Historically, the broom’s origins are intertwined with pagan fertility rituals
 <p>The superstition that one should not take an old broom to a new house stems from the belief that the broom can carry evil spirits or negative energy from the old dwelling into the new one. In contrast, a new broom is often seen as a symbol of a fresh start, capable of bringing good luck to a new home. Wiccan traditions reflect this spiritual association; modern Wiccans often use brooms as altar tools to clear sacred spaces by sweeping away negative or distracting energies. This spiritual cleansing aspect is directly linked to the origin of the superstition.</p>
 <p>In modern interpretations, the superstition persists, albeit often more as a quaint tradition than a deeply held fear. It&rsquo;s a reminder of the historical associations of the broom with both practical household tasks and deeper spiritual beliefs. Other related superstitions include the belief that it&rsquo;s unlucky to buy a broom in May (&lsquo;Brooms bought in May, sweep the family away&rsquo;) and that it is unlucky to sweep after dark. The latter belief can be traced back to the fourteenth-century persecution of witches, when a woman seen with a broom after dark was suspected of sweeping a spell towards someone and could face accusations of witchcraft. While belief in witchcraft and hexes might have diminished, the symbolic power of the broom and its associated superstitions continue to resonate in various cultures.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@ Historically, the broom’s origins are intertwined with pagan fertility rituals
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

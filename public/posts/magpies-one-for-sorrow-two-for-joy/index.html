@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The belief associating magpies with fortune has roots stretching back to at leas
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The belief associating magpies with fortune has roots stretching back to at leas
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The belief associating magpies with fortune has roots stretching back to at leas
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Magpies: Exploring the Superstition of One for Sorrow, Two for Joy</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Magpies: Exploring the Superstition of One for Sorrow, Two for Joy</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -193,8 +202,8 @@ The belief associating magpies with fortune has roots stretching back to at leas
 <p>The references to the Devil within some versions of the rhyme offer insights into the superstition&rsquo;s potential origins. Christian folklore suggests the magpie was the only bird that did not sing to comfort Jesus during the crucifixion, thus earning a negative association. Similarly, a Scottish legend claims that the magpie carries a drop of the Devil&rsquo;s blood beneath its tongue. Beyond religious connotations, the magpie&rsquo;s habits may have also contributed to its sinister reputation. Its tendency to steal shiny objects and prey on the chicks of other birds likely fostered negative perceptions among rural communities.</p>
 <p>The sight of a solitary magpie was often considered a dire omen, foretelling great sorrow. To mitigate the perceived misfortune associated with a single magpie, various countermeasures have been developed over time. These include doffing one&rsquo;s hat, spitting over the shoulder three times, and offering a salute to the bird. Another common practice involves greeting the magpie with the phrase, &ldquo;Good morning, Mr. Magpie. How&rsquo;s your wife?&rdquo;, in hopes that acknowledging a second bird would counteract the impending sorrow with joy. The enduring nature of these practices reflects the persistent influence of this superstition in contemporary society.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -300,4 +309,14 @@ The belief associating magpies with fortune has roots stretching back to at leas
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

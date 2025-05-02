@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -92,15 +92,8 @@ The roots of this superstition lie in early beliefs surrounding witchcraft and t
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -141,7 +134,6 @@ The roots of this superstition lie in early beliefs surrounding witchcraft and t
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -156,17 +148,34 @@ The roots of this superstition lie in early beliefs surrounding witchcraft and t
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>Burning Cheeks: The Superstition That Someone Is Talking About You</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">Burning Cheeks: The Superstition That Someone Is Talking About You</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -197,8 +206,8 @@ But if it be my own true love – burn, cheek, burn!</p>
 <p>This specific curse was typically uttered by women, with the final line included to address the possibility that the spell was cast by a witch on behalf of the woman’s sweetheart, hoping to intensify her affections. In this instance, the woman might welcome the magic&rsquo;s influence.</p>
 <p>As faith in the power of witchcraft diminished, the burning cheek sensation became more generally associated with criticism. Consequently, less potent antidotes emerged. In Pennsylvania, a solution involved biting the corner of one&rsquo;s apron, thought to make the gossiping detractors bite their tongues. A more widespread American custom involved licking the tip of one&rsquo;s finger and pressing it to the burning cheek while reciting the names of suspected individuals. The person whose name was on one&rsquo;s lips when the cheek cooled was believed to be the guilty party. Furthermore, in some interpretations, a burning on the left cheek indicates negative commentary, while a burning on the right cheek signifies praise. In Pennsylvania, a burning sensation on both cheeks is said to mean two people are arguing about you.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -304,4 +313,14 @@ But if it be my own true love – burn, cheek, burn!</p>
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>

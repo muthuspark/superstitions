@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="https:/superstitions.muthu.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https:/superstitions.muthu.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https:/superstitions.muthu.co/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https:/superstitions.muthu.co/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https:/superstitions.muthu.co/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://superstitions.muthu.co//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://superstitions.muthu.co//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://superstitions.muthu.co//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://superstitions.muthu.co//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superstitions.muthu.co//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -91,15 +91,8 @@
 
 
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3609399560636561" crossorigin="anonymous"></script>
 </head>
 
 
@@ -140,7 +133,6 @@
     
 
 </div>
-<div id="search"></div>
 
     </header>
 
@@ -155,17 +147,34 @@
 
 
 <div >
-  <article>
-    <header class="single-intro-container">
-        
-        <h1 class="single-title" data-pagefind-body>The Superstition That Women Onboard Ships Angered the Sea, Endangering the Vessel</h1>
+
+  <div class="single-intro-container">
+
     
-        <p class="single-readtime">
-        </p>
-    </header>
+
+    <h1 class="single-title">The Superstition That Women Onboard Ships Angered the Sea, Endangering the Vessel</h1>
     
-    <div class="single-content">
-      <p>
+
+    
+
+    <p class="single-readtime">
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>
 
 
 
@@ -192,8 +201,8 @@
 <p>Interestingly, alongside the belief that women brought bad luck, another contradictory idea existed: that a naked woman could calm the seas and save lives during a storm. This belief is documented in Pliny the Elder&rsquo;s <em>Natural History</em>, where it is claimed that women could dispel hailstorms, whirlwinds, and lightning by uncovering their bodies, particularly during menstruation. The text suggests that even a non-menstruating woman could quell a tempestuous sea simply by revealing her body. This juxtaposition highlights the complex and often contradictory nature of maritime superstitions, reflecting a mixture of fear, reverence, and practical necessity in the face of the unpredictable power of the sea.</p>
 <p>In modern times, the superstition about women on ships has largely faded from mainstream maritime culture. Advances in navigation technology, weather forecasting, and a more secular worldview have diminished the reliance on traditional superstitions. However, echoes of the belief may still persist in certain maritime communities or as a historical curiosity. While the practical implications of the superstition have largely disappeared, its enduring presence in maritime lore serves as a reminder of the fears and beliefs that once shaped the lives of those who ventured out to sea.</p>
 
-    </div>
-  </article>
+    
+  </div>
 
   
 
@@ -299,4 +308,14 @@
 
 <script src="/js/theme-switch.js"></script>
 <script defer src="/js/copy-code.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded");
+      document.querySelectorAll('.post-line').forEach(element => {
+          element.addEventListener('click', function() {
+              this.querySelector(".line-title a").click();
+          });
+      });
+  });
+</script>
 </html>
