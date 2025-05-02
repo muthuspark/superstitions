@@ -1,0 +1,68 @@
+/* Place custom css here */
+.post-line .line-title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.post-line .line-date {
+  display: none;
+}
+.img-container {
+  overflow: hidden;
+}
+.post-line {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.post-line .img-container,
+.post-line div,
+.post-line p {
+  width: 100%;
+}
+
+.single-content .img-container,
+.single-content img {
+  width: 100%;
+  display: inline;
+}
+.post-line{
+  cursor: pointer;
+}
+.tag {
+  display: inline-block; /* Allows padding and margin, flows with text */
+  padding: 0.5em 1em; /* Vertical and horizontal padding (adjust as needed) */
+  margin-bottom: 1em;         /* Small space around the tag */
+  margin-right: 0.5em;        /* Space between tags */
+  font-size: 0.85em;     /* Slightly smaller than surrounding text */
+  font-weight: 600;      /* Make the text slightly bolder */
+  line-height: 1;        /* Ensure consistent height */
+  text-align: center;
+  white-space: nowrap;   /* Prevent the tag text from wrapping */
+  vertical-align: baseline; /* Align nicely with surrounding text */
+  border-radius: 0.25rem; /* Rounded corners (adjust for more/less roundness) */
+
+  /* Default Colors */
+  color: #333;           /* Dark text color */
+  background-color: #e0e0e0; /* Light gray background */
+
+  /* If using <a> tag, remove underline */
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* Optional: Hover effect for better interaction */
+.tag:hover {
+  opacity: 0.85; /* Slightly fade on hover */
+}
+
+/* Optional: If it's a clickable tag (<a> or <button>) */
+.tag:is(a, button):hover {
+   cursor: pointer;
+}
+.line-title a{
+  text-transform: capitalize !important;
+}

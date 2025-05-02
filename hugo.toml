@@ -1,0 +1,49 @@
+baseURL = 'https://superstitions.muthu.co'
+languageCode = 'en-us'
+title = 'Superstitions From Around the World' 
+theme = 'typo'
+
+# Google analytics code
+googleAnalytics = "G-T7PH4WNH24"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Dive into the fascinating world of global superstitions! This blog explores hundreds of beliefs, rituals, lucky charms, and unlucky omens from diverse cultures across the globe. Discover why people avoid black cats, knock on wood, or carry specific talismans. Join us as we unpack the history, psychology, and cultural significance behind these intriguing practices."
+showFooter = true
+footerContent = "Collection of Superstitions compiled with ♥"
+faviconPath = "/"
+
+# Appearance settings
+theme = 'light'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content in markdown
+homeIntroTitle = "Global Superstitions"
+homeIntroContent = """
+Dive into the fascinating world of global superstitions! This blog explores hundreds of beliefs, rituals, lucky charms, and unlucky omens from diverse cultures across the globe. Discover why people avoid black cats, knock on wood, or carry specific talismans. Join us as we unpack the history, psychology, and cultural significance behind these intriguing practices.
+"""
+
+singleDateFormat = '2 Jan 2006'
+
+# Collection to display on home
+homeCollectionTitle = ''
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 20
+listSummaries = true
+listDateFormat = '02 Jan 2006'
+
+# Main menu pages
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
