@@ -1,3 +1,6 @@
 [submodule "/home/leopard/development/blogs/superstitions/themes/typo"]
 	path = /home/leopard/development/blogs/superstitions/themes/typo
 	url = https://github.com/tomfran/typo.git
+[submodule "themes/typo"]
+	path = themes/typo
+	url = https://github.com/tomfran/typo.git
