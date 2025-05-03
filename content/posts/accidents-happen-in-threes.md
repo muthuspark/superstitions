@@ -1,5 +1,5 @@
 ---
-title: "Accidents Happen in Threes: Exploring the Superstition's Origins and Evolution"
+title: "Accidents Happen in Threes - Exploring the Superstition's Origins and Evolution"
 ---
 
 ![](/images/image_accidents-happen-in-threes.png)
